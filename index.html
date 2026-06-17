@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ACCÈS SÉCURISÉ</title>
+    <style>
+        body { background-color: #d1d1d1; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .box { background: white; padding: 40px; border-top: 5px solid #000; box-shadow: 0 5px 15px rgba(0,0,0,0.3); text-align: center; width: 300px; }
+        h2 { font-size: 16px; margin-bottom: 20px; color: #333; }
+        input { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #999; box-sizing: border-box; }
+        button { background: #000; color: #d4af37; padding: 10px; border: none; width: 100%; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>AUTHENTIFICATION REQUISE</h2>
+        <input type="password" id="pass" placeholder="Clé d'accès">
+        <button onclick="alert('ERREUR 403: Accès refusé par le serveur central.')">VALIDER</button>
+    </div>
+</body>
+</html>
