@@ -1,2 +1,0 @@
-# legion-acceso
-legion-acceso
